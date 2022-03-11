@@ -12,6 +12,9 @@ class Player(pygame.sprite.Sprite):
         pygame.sprite.Sprite.__init__(self, self.groups)
         self.x = x * TILE_SIZE
         self.y = y * TILE_SIZE
+
+        self.image= pygame.
+
     def draw(self):
         pass
     def update(self):
